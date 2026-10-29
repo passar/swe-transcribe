@@ -1,3 +1,15 @@
+# Ignorera nedladdade AI-modeller
+kb-model-*/
+whisper-turbo-lokal/
+*.bin
+*.pt
+
+# Ignorera databaser och sessionsfiler
+transkriberingsarkiv.duckdb
+transkriberingsarkiv.duckdb.wal
+edda_sessioner/
+__pycache__/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
